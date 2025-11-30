@@ -19,8 +19,12 @@
 
 如果你的環境與上述相同，可以直接下載預編譯的 wheel 檔案：
 
+👉 **[下載 Release](https://github.com/GarfieldHuang/SageAttention/releases/tag/v2.2.0-arm64-gb10)**
+
 ```bash
-# 下載 wheel（請從 Release 頁面下載）
+# 下載後安裝
+wget https://github.com/GarfieldHuang/SageAttention/releases/download/v2.2.0-arm64-gb10/sageattention-2.2.0-cp310-cp310-linux_aarch64.whl
+
 pip install sageattention-2.2.0-cp310-cp310-linux_aarch64.whl
 ```
 
@@ -161,7 +165,7 @@ pip install /path/to/sageattention-2.2.0-cp310-cp310-linux_aarch64.whl
 
 ## 貢獻者
 
-- 編譯測試：[@lavi](https://github.com/lavi)
+- 編譯測試：[@GarfieldHuang](https://github.com/GarfieldHuang)
 - 日期：2025年11月30日
 - 硬體：NVIDIA DGX Spark (GB10)
 
